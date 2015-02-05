@@ -1,0 +1,19 @@
+#  === Implementation notes ===
+# | Replace every occurence of "public_path/" to your site's real public path in
+# | the current environment.
+#  === Implementation notes ===
+# 
+# Maintenance rules
+ErrorDocument 503 /public_path/maintenance.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    #Add allowed IP-s here
+    # RewriteCond %{REMOTE_ADDR} !^123\.456\.789\.000
+    RewriteCond %{DOCUMENT_ROOT}/public_path/maintenance.html -f
+    RewriteCond %{DOCUMENT_ROOT}/public_path/maintenance -f
+    RewriteCond %{SCRIPT_FILENAME} !maintenance.html
+    RewriteRule ^.*$ /public_path/maintenance.html [R=503,L]
+    Header Set Cache-Control "max-age=0, no-store"
+</IfModule>
+# Maintenance rules
