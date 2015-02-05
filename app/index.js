@@ -44,12 +44,12 @@ module.exports = yeoman.generators.Base.extend({
 
     projectfiles: function () {
       this.fs.copy(
-        this.templatePath('.htaccess'),
-        this.destinationPath(this.publicDirectory + '/.htaccess')
+        this.templatePath('.htaccess.dist'),
+        this.destinationPath(this.publicDirectory + '/.htaccess.dist')
       );
       this.fs.copy(
-        this.templatePath('maintenance.html.php'),
-        this.destinationPath(this.publicDirectory + '/maintenance.html.php')
+        this.templatePath('maintenance.html'),
+        this.destinationPath(this.publicDirectory + '/maintenance.html')
       );
     }
   },
