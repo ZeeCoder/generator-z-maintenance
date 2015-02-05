@@ -1,6 +1,6 @@
 {
   "name": "generator-maintenance",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An Apache maintenance solution for simple sites using .htaccess.",
   "license": "MIT",
   "main": "app/index.js",
