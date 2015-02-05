@@ -1,6 +1,6 @@
 {
   "name": "generator-z-maintenance",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An Apache maintenance solution for simple sites using .htaccess.",
   "license": "MIT",
   "main": "app/index.js",
