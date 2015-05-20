@@ -1,6 +1,6 @@
 
-### Generator-Z-Maintenance
-
+# Generator-Z-Maintenance
+[![Project Status](http://stillmaintained.com/ZeeCoder/generator-z-maintenance.png)](http://stillmaintained.com/ZeeCoder/generator-z-maintenance)
 
 #### Installation and Usage
 
