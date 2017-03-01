@@ -1,5 +1,7 @@
 
 # Generator-Z-Maintenance
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ZeeCoder/generator-z-maintenance.svg)](https://greenkeeper.io/)
 [![Project Status](http://stillmaintained.com/ZeeCoder/generator-z-maintenance.png)](http://stillmaintained.com/ZeeCoder/generator-z-maintenance)
 
 #### Installation and Usage
